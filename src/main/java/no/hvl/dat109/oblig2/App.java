@@ -3,12 +3,29 @@
  */
 package no.hvl.dat109.oblig2;
 
+import static no.hvl.dat109.oblig2.CommandInterface.*;
+ 
 public class App {
     public String getGreeting() {
         return "Hello world.";
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+		printInfo("\nVelkommen til Terningspillet!\n");
+		
+		Terningspill terningspill = new Terningspill();
+
+		printInfo("Legg til spillere ved å skrive navnet og trykke enter.");
+		printInfo("Når du er ferdig; trykk enter uten å skrive inn noe.\n");
+
+		boolean ferdig = false;
+
+		while (!ferdig) {
+			
+		}
+
+
+		terningspill.spill();
+
     }
 }
