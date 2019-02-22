@@ -3,3 +3,7 @@
 # Obligatory exercise 2
 
 > DAT109
+
+Prosjektet er bygget ved hjelp av *Gradle*.
+
+Kjør programmet med `gradle run --console=plain` i rotmappen.
