@@ -13,4 +13,10 @@ Kjør programmet med `gradle run --console=plain` i rotmappen.
 
 ## Oppgave 2
 
-...
+I prosjektet er det tatt i bruk ulike prinsipper fra GRASP og SOLID:
+
+- **Single Responsibility Principle:** Alle klassene har ett spesifikt ansvar.
+- **Low Coupling:** Hver klasse brukes kun av andre klasser gjennom et bestemt grensesnitt, uten avhengigheter mellom klassene.
+- **High Cohesion:** Ansvaret for hver klasse er fokusert.
+- **Creator:** Kun en klasse har ansvaret for å lage instanser av en annen klasse.
+- **Controller:** Applikasjonen er koordinert av en klasse som delegerer ansvar til view-klassen og modellene, uten å gjøre mye selv.
