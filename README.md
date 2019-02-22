@@ -5,6 +5,12 @@
 
 > DAT109
 
+## Oppgave 1
+
 Prosjektet er bygget ved hjelp av *Gradle*.
 
 Kjør programmet med `gradle run --console=plain` i rotmappen.
+
+## Oppgave 2
+
+...
